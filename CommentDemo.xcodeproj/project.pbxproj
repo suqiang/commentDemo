@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3BCC551D69DF4400CBFA4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BCC541D69DF4400CBFA4A /* main.m */; };
+		8E3BCC581D69DF4400CBFA4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BCC571D69DF4400CBFA4A /* AppDelegate.m */; };
+		8E3BCC601D69DF4400CBFA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3BCC5F1D69DF4400CBFA4A /* Assets.xcassets */; };
+		8E3BCC631D69DF4400CBFA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3BCC611D69DF4400CBFA4A /* LaunchScreen.storyboard */; };
+		8E3BCC791D69E63000CBFA4A /* SQTopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BCC761D69E63000CBFA4A /* SQTopicTableViewCell.m */; };
+		8E3BCC7F1D69E68200CBFA4A /* SQCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BCC7E1D69E68200CBFA4A /* SQCommentModel.m */; };
+		8E3BCC821D69E69A00CBFA4A /* SQTopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BCC811D69E69A00CBFA4A /* SQTopicModel.m */; };
+		8E3BCC861D69EBB500CBFA4A /* SQTopicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BCC851D69EBB500CBFA4A /* SQTopicTableViewController.m */; };
+		8ECC61DF1D8A8C73003D0582 /* SQCommentCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC61DC1D8A8C73003D0582 /* SQCommentCellViewModel.m */; };
+		8ECC61E01D8A8C73003D0582 /* SQTopicCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC61DE1D8A8C73003D0582 /* SQTopicCellViewModel.m */; };
+		8ECC61E51D8A8D16003D0582 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC61E41D8A8D16003D0582 /* TTTAttributedLabel.m */; };
+		8ECC61E81D8AFED4003D0582 /* SQUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC61E71D8AFED4003D0582 /* SQUserCenterViewController.m */; };
+		8EEDB8F81D69ED8B008EDFB2 /* SQCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDB8F71D69ED8B008EDFB2 /* SQCommentTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E3BCC501D69DF4400CBFA4A /* CommentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3BCC541D69DF4400CBFA4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E3BCC561D69DF4400CBFA4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E3BCC571D69DF4400CBFA4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E3BCC5F1D69DF4400CBFA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3BCC621D69DF4400CBFA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E3BCC641D69DF4400CBFA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3BCC711D69E63000CBFA4A /* SQTopicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTopicTableViewController.h; sourceTree = "<group>"; };
+		8E3BCC751D69E63000CBFA4A /* SQTopicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTopicTableViewCell.h; sourceTree = "<group>"; };
+		8E3BCC761D69E63000CBFA4A /* SQTopicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTopicTableViewCell.m; sourceTree = "<group>"; };
+		8E3BCC7D1D69E68200CBFA4A /* SQCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCommentModel.h; sourceTree = "<group>"; };
+		8E3BCC7E1D69E68200CBFA4A /* SQCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCommentModel.m; sourceTree = "<group>"; };
+		8E3BCC801D69E69A00CBFA4A /* SQTopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTopicModel.h; sourceTree = "<group>"; };
+		8E3BCC811D69E69A00CBFA4A /* SQTopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTopicModel.m; sourceTree = "<group>"; };
+		8E3BCC851D69EBB500CBFA4A /* SQTopicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTopicTableViewController.m; sourceTree = "<group>"; };
+		8ECC61DB1D8A8C73003D0582 /* SQCommentCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCommentCellViewModel.h; sourceTree = "<group>"; };
+		8ECC61DC1D8A8C73003D0582 /* SQCommentCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCommentCellViewModel.m; sourceTree = "<group>"; };
+		8ECC61DD1D8A8C73003D0582 /* SQTopicCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTopicCellViewModel.h; sourceTree = "<group>"; };
+		8ECC61DE1D8A8C73003D0582 /* SQTopicCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTopicCellViewModel.m; sourceTree = "<group>"; };
+		8ECC61E31D8A8D16003D0582 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		8ECC61E41D8A8D16003D0582 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		8ECC61E61D8AFED4003D0582 /* SQUserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQUserCenterViewController.h; sourceTree = "<group>"; };
+		8ECC61E71D8AFED4003D0582 /* SQUserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQUserCenterViewController.m; sourceTree = "<group>"; };
+		8EEDB8F61D69ED8B008EDFB2 /* SQCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQCommentTableViewCell.h; sourceTree = "<group>"; };
+		8EEDB8F71D69ED8B008EDFB2 /* SQCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQCommentTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E3BCC4D1D69DF4400CBFA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3BCC471D69DF4400CBFA4A = {
+			isa = PBXGroup;
+			children = (
+				8E3BCC521D69DF4400CBFA4A /* CommentDemo */,
+				8E3BCC511D69DF4400CBFA4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E3BCC511D69DF4400CBFA4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E3BCC501D69DF4400CBFA4A /* CommentDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3BCC521D69DF4400CBFA4A /* CommentDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8E3BCC561D69DF4400CBFA4A /* AppDelegate.h */,
+				8E3BCC571D69DF4400CBFA4A /* AppDelegate.m */,
+				8E3BCC701D69E63000CBFA4A /* Controller */,
+				8E3BCC731D69E63000CBFA4A /* Model */,
+				8E3BCC741D69E63000CBFA4A /* View */,
+				8E3BCC771D69E63000CBFA4A /* ViewModel */,
+				8ECC61E11D8A8D16003D0582 /* Library */,
+				8E3BCC5F1D69DF4400CBFA4A /* Assets.xcassets */,
+				8E3BCC611D69DF4400CBFA4A /* LaunchScreen.storyboard */,
+				8E3BCC641D69DF4400CBFA4A /* Info.plist */,
+				8E3BCC531D69DF4400CBFA4A /* Supporting Files */,
+			);
+			path = CommentDemo;
+			sourceTree = "<group>";
+		};
+		8E3BCC531D69DF4400CBFA4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E3BCC541D69DF4400CBFA4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E3BCC701D69E63000CBFA4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E3BCC711D69E63000CBFA4A /* SQTopicTableViewController.h */,
+				8E3BCC851D69EBB500CBFA4A /* SQTopicTableViewController.m */,
+				8ECC61E61D8AFED4003D0582 /* SQUserCenterViewController.h */,
+				8ECC61E71D8AFED4003D0582 /* SQUserCenterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E3BCC731D69E63000CBFA4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E3BCC7D1D69E68200CBFA4A /* SQCommentModel.h */,
+				8E3BCC7E1D69E68200CBFA4A /* SQCommentModel.m */,
+				8E3BCC801D69E69A00CBFA4A /* SQTopicModel.h */,
+				8E3BCC811D69E69A00CBFA4A /* SQTopicModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E3BCC741D69E63000CBFA4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E3BCC751D69E63000CBFA4A /* SQTopicTableViewCell.h */,
+				8E3BCC761D69E63000CBFA4A /* SQTopicTableViewCell.m */,
+				8EEDB8F61D69ED8B008EDFB2 /* SQCommentTableViewCell.h */,
+				8EEDB8F71D69ED8B008EDFB2 /* SQCommentTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E3BCC771D69E63000CBFA4A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC61DB1D8A8C73003D0582 /* SQCommentCellViewModel.h */,
+				8ECC61DC1D8A8C73003D0582 /* SQCommentCellViewModel.m */,
+				8ECC61DD1D8A8C73003D0582 /* SQTopicCellViewModel.h */,
+				8ECC61DE1D8A8C73003D0582 /* SQTopicCellViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8ECC61E11D8A8D16003D0582 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC61E21D8A8D16003D0582 /* TTTAttributedLabel */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8ECC61E21D8A8D16003D0582 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC61E31D8A8D16003D0582 /* TTTAttributedLabel.h */,
+				8ECC61E41D8A8D16003D0582 /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3BCC4F1D69DF4400CBFA4A /* CommentDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3BCC671D69DF4400CBFA4A /* Build configuration list for PBXNativeTarget "CommentDemo" */;
+			buildPhases = (
+				8E3BCC4C1D69DF4400CBFA4A /* Sources */,
+				8E3BCC4D1D69DF4400CBFA4A /* Frameworks */,
+				8E3BCC4E1D69DF4400CBFA4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommentDemo;
+			productName = CommentDemo;
+			productReference = 8E3BCC501D69DF4400CBFA4A /* CommentDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E3BCC481D69DF4400CBFA4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = suqianghotel;
+				TargetAttributes = {
+					8E3BCC4F1D69DF4400CBFA4A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8E3BCC4B1D69DF4400CBFA4A /* Build configuration list for PBXProject "CommentDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E3BCC471D69DF4400CBFA4A;
+			productRefGroup = 8E3BCC511D69DF4400CBFA4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3BCC4F1D69DF4400CBFA4A /* CommentDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3BCC4E1D69DF4400CBFA4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3BCC631D69DF4400CBFA4A /* LaunchScreen.storyboard in Resources */,
+				8E3BCC601D69DF4400CBFA4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3BCC4C1D69DF4400CBFA4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3BCC581D69DF4400CBFA4A /* AppDelegate.m in Sources */,
+				8EEDB8F81D69ED8B008EDFB2 /* SQCommentTableViewCell.m in Sources */,
+				8E3BCC7F1D69E68200CBFA4A /* SQCommentModel.m in Sources */,
+				8ECC61E81D8AFED4003D0582 /* SQUserCenterViewController.m in Sources */,
+				8E3BCC551D69DF4400CBFA4A /* main.m in Sources */,
+				8E3BCC861D69EBB500CBFA4A /* SQTopicTableViewController.m in Sources */,
+				8E3BCC791D69E63000CBFA4A /* SQTopicTableViewCell.m in Sources */,
+				8ECC61DF1D8A8C73003D0582 /* SQCommentCellViewModel.m in Sources */,
+				8E3BCC821D69E69A00CBFA4A /* SQTopicModel.m in Sources */,
+				8ECC61E01D8A8C73003D0582 /* SQTopicCellViewModel.m in Sources */,
+				8ECC61E51D8A8D16003D0582 /* TTTAttributedLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E3BCC611D69DF4400CBFA4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3BCC621D69DF4400CBFA4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E3BCC651D69DF4400CBFA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E3BCC661D69DF4400CBFA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E3BCC681D69DF4400CBFA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CommentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suqianghotel.CommentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E3BCC691D69DF4400CBFA4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CommentDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suqianghotel.CommentDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E3BCC4B1D69DF4400CBFA4A /* Build configuration list for PBXProject "CommentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3BCC651D69DF4400CBFA4A /* Debug */,
+				8E3BCC661D69DF4400CBFA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3BCC671D69DF4400CBFA4A /* Build configuration list for PBXNativeTarget "CommentDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3BCC681D69DF4400CBFA4A /* Debug */,
+				8E3BCC691D69DF4400CBFA4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E3BCC481D69DF4400CBFA4A /* Project object */;
+}
